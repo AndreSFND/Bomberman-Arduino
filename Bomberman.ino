@@ -1,8 +1,8 @@
 //Inclusão da biblioteca U8glib
 #include "U8glib.h"
 
-//Pinagem  do display Nokia 5110 (CLK=11, DIN=10, CE=8, DC=9, RST=7)
-U8GLIB_PCD8544 u8g(11, 10, 8, 9, 7);
+//Pinagem  do display Nokia 5110 (CLK=7, DIN=8, CE=10, DC=9, RST=11)
+U8GLIB_PCD8544 u8g(7, 8, 10, 9, 11);
 
 //Seleção de tela [0 - Início, 1 - Jogo, 2 - Fim]
 int tela = 0;
